@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallet - Depositar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Depositar</h2>
+    <div class="form-group">
+        <label for="monto-saldo">Saldo en Cuenta:</label>
+        <input type="number" class="form-control" id="monto-saldo" readonly>
+      </div>
+    <form id="form-deposit">
+      <div class="form-group">
+        <label for="depositAmount">Monto a depositar:</label>
+        <input type="text" class="form-control" id="depositAmount" placeholder="Ingresar monto">
+      </div>
+      <button type="submit" class="btn btn-info">Realizar depósito</button>
+    </form>
+    <a href="menu.html" class="btn btn-warning">Volver al Menú Principal</a>
+    <script src="assets/js/deposit.js"  type="text/javascript"></script>
+  </div>
+</body>
+</html>

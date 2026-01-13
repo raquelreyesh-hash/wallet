@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallet - Menú Principal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Menú Principal</h2>
+    <div class="form-group">
+      <label for="balance">Dinero en cuenta:</label>
+      <h3 id="monto-saldo">$80000</h3>
+    </div>
+    <a id="link-deposit" class="btn btn-info">Depositar</a>
+    <a id="link-sendmoney" class="btn btn-succes">Enviar Dinero</a>
+    <a id="link-transactions" class="btn btn-warning">Últimos Movimientos</a>
+    <div id="mensaje-redireccion"></div>
+  </div>
+  
+  <script src="assets/js/menu.js"  type="text/javascript"></script>
+</body>
+</html>

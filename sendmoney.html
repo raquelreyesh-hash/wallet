@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallet - Enviar Dinero</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Enviar Dinero</h2>
+    <form>
+      <div class="form-group">
+        <label for="searchContact">Buscar en la agenda de transferencias:</label>
+        <input type="text" class="form-control" id="Ingrese contacto" placeholder="Ingresar contacto">
+      </div>
+      <button type="submit" class="btn btn-success">Agregar nuevo contacto</button>
+ <h3>Contactos</h3>
+  <ul id="contactList" class="list-group">
+    <li class="list-group-item">
+      <div class="contact-info">
+        <span class="contact-name">Fox Mulder</span>
+        <span class="contact-details">CBU: 130064051, Alias: fox.mulder, Banco: ITAU Bank</span>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="contact-info">
+        <span class="contact-name">Dana Scully</span>
+        <span class="contact-details">CBU: 134128550, Alias: dana.scully, Banco: BCI Bank</span>
+      </div>
+    </li>
+      <button type="submit" class="btn btn-warning">Enviar dinero</button>
+    </form>
+    <a href="menu.html" class="btn btn-info">Volver al Menú Principal</a>
+  </div>
+
+<button popovertarget="popup">Agregar nuevo contacto</button>
+<div popover id="popup">
+  Contacto agregado exitosamente
+  <button popovertarget="popup" popovertargetaction="hide">Cerrar</button>
+</div>
+
+
+</body>
+</html>
